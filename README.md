@@ -12,26 +12,21 @@ Die Webseite besteht aus folgenden Unterseiten:
 Übersichtlicher Einstieg mit Namen und Navigation
 
 ## Über mich
-Lebenslauf (Stichworte + Bild)
-
-Hobbys (Text + Bilder)
-
-Wohnort (mit Bild)
+- Lebenslauf (Stichworte + Bild)
+- Hobbys (Text + Bilder)
+- Wohnort (mit Bild)
 
 ## Portfolio
-Projektarbeit (Bild + Beschreibung)
-
-Eigenes Spiel (Bild + Beschreibung)
-
-Simrig (Video + Text)
+- Projektarbeit (Bild + Beschreibung)
+- Eigenes Spiel (Bild + Beschreibung)
+- Simrig (Video + Text)
 
 ## Fähigkeiten & Stärken
-Persönliche Stärken (mit Symbolbildern)
-
-Fachliche Fähigkeiten (Liste + Bilder)
+- Persönliche Stärken (mit Symbolbildern)
+- Fachliche Fähigkeiten (Liste + Bilder)
 
 ## Kontakt
-Kontaktformular (E-Mail, Name, Nachricht)
+- Kontaktformular (E-Mail, Name, Nachricht)
 
 # Projektstruktur 
 
@@ -53,6 +48,5 @@ projekt/
 # Autor
 Diese Webseite wurde im Rahmen des Moduls M293 von Fabian Schmitt erstellt.
 
-E-Mail: fabian.schmitt@edu.gbssg.ch
-
-Telefon: +41 76 527 1901
+- E-Mail: fabian.schmitt@edu.gbssg.ch
+- Telefon: +41 76 527 1901
