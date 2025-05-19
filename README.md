@@ -38,10 +38,11 @@ projekt/
 ├── SkillsStrengths.html
 ├── Contact.html
 ├── Style.css
-├── img/
-│   └── (Bilder für Inhalte)
-└── video/
-    └── (Videos für Inhalte)
+└── assets/
+    ├── img/
+    │   └── (Bilder für Inhalte)
+    └── video/
+        └── (Videos für Inhalte)1
 ```    
 
 
