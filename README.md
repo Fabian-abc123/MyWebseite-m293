@@ -1,6 +1,6 @@
 # MyWebseite-m293
 
-Dies ist eine Webseite über mich , erstellt im Rahmen der Projektarbeit des Moduls M293.
+Dies ist eine Webseite über mich, erstellt im Rahmen der Projektarbeit des Moduls M293.
 
 # Ziel der Arbeit
 Ziel war es, eine übersichtliche und ansprechende Webseite zu entwickeln, welche die eigene Person, Fähigkeiten und Arbeiten präsentiert. Dabei standen Struktur, Design und technische Umsetzung mit HTML und CSS im Vordergrund.
