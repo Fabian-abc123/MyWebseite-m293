@@ -1,158 +1,3 @@
-/** {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html, body {
-    height: 100%;
-    font-family: Arial, sans-serif;
-    background-color: #171717;
-    color: white;
-    display: flex;
-    flex-direction: column;
-}
-
-.container {
-    padding-top: 20px;
-    width: 96%;
-    margin: 0 auto;
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    background-color: #171717;
-    padding: 16px;
-    margin: 0 auto 10px auto;
-    border: 2px solid #8888ff75;
-    border-radius: 40px;
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-    background-color: #212121;
-    padding: 14px 20px;
-    margin: 0 8px;
-    border-radius: 6px;
-    font-size: 1em;
-}
-
-nav a:hover {
-    background-color: #3d3d3d;
-}
-
-nav a.active {
-    border-bottom: 3px solid #8888ff75;
-}
-
-main {
-    flex-grow: 1;
-    display: flex;
-    background-color: #171717;
-    padding: 80px;
-    border-radius: 40px;
-    margin: 0 auto 20px auto;
-    width: 96%;
-    border: 2px solid #8888ff75;
-}
-
-main.home {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 7em;
-}
-
-main.aboutMe {
-    flex-direction: column;
-    gap: 40px;
-    width: 98%;
-    max-width: 1600px;
-}
-
-.aboutMe section h2 {
-    font-size: 60px;
-    margin: 0 0 30px;
-    text-align: center;
-}
-
-.aboutMe p,
-.aboutMe li {
-    font-size: 30px;
-    line-height: 1.6;
-}
-
-.bild {
-    background-color: #d3d3d3;
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-}
-
-.bild.gross {
-    width: 260px;
-    height: 260px;
-    font-size: 1.2em;
-}
-
-.bild.klein {
-    width: 80px;
-    height: 80px;
-    font-size: 1em;
-}
-
-.lebenslauf-content {
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
-    flex-wrap: wrap;
-}
-
-.lebenslauf-content ul {
-    padding-left: 20px;
-}
-
-.lebenslauf-content img {
-    padding-right: 60px;
-}
-
-.hobby {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    margin-bottom: 20px;
-}
-
-.hobby img {
-    max-width: 30%;
-}
-
-.wohnort-bild {
-    width: 100%;
-    height: 160px;
-    font-size: 1.2em;
-    margin-bottom: 10px;
-}
-
-.wohnort img {
-    width: 100%;
-    height: auto;
-    border-radius: 16px;
-    margin-bottom: 16px;
-}
-
-footer {
-    text-align: right;
-    padding: 10px 20px;
-    font-size: 0.9em;
-}
-*/
-
-
 html, body {
     height: 100%;
     margin: 0;
@@ -303,3 +148,62 @@ footer {
     border-radius: 16px;
     margin-bottom: 16px;
 }
+
+main.portfolio {
+    flex-direction: column;
+    gap: 60px;
+    width: 98%;
+    max-width: 1600px;
+}
+
+.portfolio h2 {
+    font-size: 60px;
+    margin: 0 0 30px 0;
+    text-align: center;
+}
+
+.portfolio p {
+    font-size: 30px;
+    line-height: 1.6;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.portfolio img {
+    display: block;
+    margin: 0 auto 30px auto;
+    max-width: 100%;
+    border-radius: 16px;
+}
+
+.portfolio .bild.gross {
+    margin: 0 auto 30px auto;
+}
+
+.video,
+.video-embed iframe {
+    width: 100%;
+    max-width: 1000px;
+    height: 560px;
+    display: block;
+    margin: 0 auto 30px auto;
+    border-radius: 16px;
+}
+
+.video-embed {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.video-embed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
