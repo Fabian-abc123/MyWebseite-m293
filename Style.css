@@ -207,3 +207,84 @@ main.portfolio {
     height: 100%;
 }
 
+main.skillsstrengths {
+    flex-direction: column;
+    gap: 60px;
+    width: 98%;
+    max-width: 1600px;
+}
+
+.skillsstrengths h2 {
+    font-size: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.staerken-liste {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.staerken-liste .item {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.staerken-liste .item img {
+    width: 200px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.staerken-liste .item p {
+    font-size: 34px;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.faehigkeiten {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.faehigkeiten h2 {
+    font-size: 60px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.faehigkeiten ul {
+    display: inline-block;
+    text-align: left;
+    font-size: 34px;
+    list-style-type: disc;
+    margin-bottom: 50px;
+    padding-left: 30px;
+    line-height: 1.6;
+}
+
+.faehigkeiten-icons {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.faehigkeiten-icons img {
+    width: 200px;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+
+
