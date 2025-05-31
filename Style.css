@@ -284,6 +284,68 @@ main.skillsstrengths {
 }
 
 
+main.kontakt {
+    flex-direction: column;
+    gap: 40px;
+    width: 96%;
+    max-width: 1600px;
+    margin: 0 auto 20px auto;
+    padding: 80px;
+    border-radius: 40px;
+    box-sizing: border-box;
+    border: 2px solid #8888ff75;
+    background-color: #171717;
+}
+
+
+.kontakt h2 {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.kontakt form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 28px;
+}
+
+.kontakt input,
+
+.kontakt textarea {
+    padding: 12px;
+    font-size: 24px;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+}
+
+.kontakt button {
+    padding: 14px 28px;
+    font-size: 24px;
+    background-color: #8888ff75;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.kontakt button:hover {
+    background-color: #8888ffaa;
+}
+
+.kontakt-info {
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+.kontakt-info ul {
+    padding-left: 20px;
+}
 
 
 
