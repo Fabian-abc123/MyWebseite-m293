@@ -6,6 +6,12 @@ html, body {
     color: white;
     display: flex;
     flex-direction: column;
+    font-family: Arial, sans-serif, system-ui;
+}
+
+html {
+    font-size: 16px;
+    overflow-y: scroll;
 }
 
 .container {
@@ -50,6 +56,7 @@ main {
     border-radius: 40px;
     margin: 0 auto 20px auto;
     width: 96%;
+    max-width: 1600px;
     box-sizing: border-box;
     border: 2px solid #8888ff75;
 }
@@ -64,8 +71,6 @@ main.home {
 main.aboutMe {
     flex-direction: column;
     gap: 40px;
-    width: 98%;
-    max-width: 1600px;
 }
 
 .aboutMe section h2 {
@@ -152,8 +157,6 @@ footer {
 main.portfolio {
     flex-direction: column;
     gap: 60px;
-    width: 98%;
-    max-width: 1600px;
 }
 
 .portfolio h2 {
@@ -210,8 +213,6 @@ main.portfolio {
 main.skillsstrengths {
     flex-direction: column;
     gap: 60px;
-    width: 98%;
-    max-width: 1600px;
 }
 
 .skillsstrengths h2 {
@@ -283,20 +284,10 @@ main.skillsstrengths {
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
 }
 
-
 main.kontakt {
     flex-direction: column;
     gap: 40px;
-    width: 96%;
-    max-width: 1600px;
-    margin: 0 auto 20px auto;
-    padding: 80px;
-    border-radius: 40px;
-    box-sizing: border-box;
-    border: 2px solid #8888ff75;
-    background-color: #171717;
 }
-
 
 .kontakt h2 {
     font-size: 60px;
@@ -312,7 +303,6 @@ main.kontakt {
 }
 
 .kontakt input,
-
 .kontakt textarea {
     padding: 12px;
     font-size: 24px;
@@ -321,21 +311,7 @@ main.kontakt {
     border: none;
     border-radius: 6px;
     outline: none;
-}
-
-.kontakt button {
-    padding: 14px 28px;
-    font-size: 24px;
-    background-color: #8888ff75;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    align-self: flex-start;
-}
-
-.kontakt button:hover {
-    background-color: #8888ffaa;
+    font-family: inherit;
 }
 
 .kontakt-info {
@@ -347,6 +323,17 @@ main.kontakt {
     padding-left: 20px;
 }
 
+button {
+    padding: 14px 28px;
+    font-size: 24px;
+    background-color: #8888ff75;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    align-self: flex-start;
+}
 
-
-
+button:hover {
+    background-color: #8888ffaa;
+}
