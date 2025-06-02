@@ -32,11 +32,11 @@ Die Webseite besteht aus folgenden Unterseiten:
 
 ```
 projekt/
-├── Home.html
-├── AboutMe.html
-├── Portfolio.html
-├── SkillsStrengths.html
-├── Contact.html
+├── index.html
+├── aboutMe.html
+├── portfolio.html
+├── skillsStrengths.html
+├── contact.html
 ├── Style.css
 └── assets/
     ├── img/
