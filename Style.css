@@ -14,7 +14,7 @@ html {
 }
 
 .container {
-    padding-top: 20px;
+    padding-top: 1.25rem;
     width: 96%;
     margin: 0 auto;
 }
@@ -23,20 +23,20 @@ nav {
     display: flex;
     justify-content: center;
     background-color: #171717;
-    padding: 16px;
-    margin: 0 auto 10px auto;
-    border-radius: 40px;
-    border: 2px solid #8888ff75;
+    padding: 1rem;
+    margin: 0 auto 0.625rem auto;
+    border-radius: 2.5rem;
+    border: 0.125rem solid #8888ff75;
 }
 
 nav a {
     text-decoration: none;
     color: white;
     background-color: #212121;
-    padding: 14px 20px;
-    margin: 0 8px;
-    border-radius: 6px;
-    font-size: 16px;
+    padding: 0.875rem 1.25rem;
+    margin: 0 0.5rem;
+    border-radius: 0.375rem;
+    font-size: 1rem;
 }
 
 nav a:hover {
@@ -44,43 +44,43 @@ nav a:hover {
 }
 
 nav a.active {
-    border-bottom: 3px solid #8888ff75;
+    border-bottom: 0.1875rem solid #8888ff75;
 }
 
 main {
     flex-grow: 1;
     display: flex;
     background-color: #171717;
-    padding: 80px;
-    border-radius: 40px;
-    margin: 0 auto 20px auto;
+    padding: 5rem;
+    border-radius: 2.5rem;
+    margin: 0 auto 1.25rem auto;
     width: 96%;
-    max-width: 1600px;
+    max-width: 100rem;
     box-sizing: border-box;
-    border: 2px solid #8888ff75;
+    border: 0.125rem solid #8888ff75;
 }
 
 main.home {
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 112px;
+    font-size: 7rem;
 }
 
 main.aboutMe {
     flex-direction: column;
-    gap: 40px;
+    gap: 2.5rem;
 }
 
 .aboutMe section h2 {
-    font-size: 60px;
-    margin: 0 0 30px 0;
+    font-size: 3.75rem;
+    margin: 0 0 1.875rem 0;
     text-align: center;
 }
 
 .aboutMe p,
 .aboutMe li {
-    font-size: 30px;
+    font-size: 1.875rem;
     line-height: 1.6;
 }
 
@@ -95,37 +95,37 @@ main.aboutMe {
 }
 
 .bild.gross {
-    width: 260px;
-    height: 260px;
-    font-size: 19px;
+    width: 16.25rem;
+    height: 16.25rem;
+    font-size: 1.1875rem;
 }
 
 .bild.klein {
-    width: 80px;
-    height: 80px;
-    font-size: 16px;
+    width: 5rem;
+    height: 5rem;
+    font-size: 1rem;
 }
 
 .lebenslauf-content {
     display: flex;
     justify-content: space-between;
-    gap: 40px;
+    gap: 2.5rem;
     flex-wrap: wrap;
 }
 
 .lebenslauf-content ul {
-    padding-left: 20px;
+    padding-left: 1.25rem;
 }
 
 .lebenslauf-content img {
-    padding-right: 60px;
+    padding-right: 3.75rem;
 }
 
 .hobby {
     display: flex;
     align-items: center;
-    gap: 30px;
-    margin-bottom: 20px;
+    gap: 1.875rem;
+    margin-bottom: 1.25rem;
 }
 
 .hobby img {
@@ -134,63 +134,63 @@ main.aboutMe {
 
 .wohnort-bild {
     width: 100%;
-    height: 160px;
-    font-size: 19px;
-    margin-bottom: 10px;
+    height: 10rem;
+    font-size: 1.1875rem;
+    margin-bottom: 0.625rem;
 }
 
 footer {
     text-align: right;
-    padding: 10px 20px;
-    font-size: 14px;
+    padding: 0.625rem 1.25rem;
+    font-size: 0.875rem;
     color: white;
 }
 
 .wohnort img {
     width: 100%;
     height: auto;
-    border-radius: 16px;
-    margin-bottom: 16px;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
 }
 
 main.portfolio {
     flex-direction: column;
-    gap: 60px;
+    gap: 3.75rem;
 }
 
 .portfolio h2 {
-    font-size: 60px;
-    margin: 0 0 30px 0;
+    font-size: 3.75rem;
+    margin: 0 0 1.875rem 0;
     text-align: center;
 }
 
 .portfolio p {
-    font-size: 30px;
+    font-size: 1.875rem;
     line-height: 1.6;
     text-align: center;
-    max-width: 1000px;
+    max-width: 62.5rem;
     margin: 0 auto;
 }
 
 .portfolio img {
     display: block;
-    margin: 0 auto 30px auto;
+    margin: 0 auto 1.875rem auto;
     max-width: 100%;
-    border-radius: 16px;
+    border-radius: 1rem;
 }
 
 .portfolio .bild.gross {
-    margin: 0 auto 30px auto;
+    margin: 0 auto 1.875rem auto;
 }
 
 .video,
 .video-embed iframe {
     width: 100%;
-    max-width: 1000px;
-    height: 560px;
+    max-width: 62.5rem;
+    height: 35rem;
     display: block;
-    margin: 0 auto 30px auto;
-    border-radius: 16px;
+    margin: 0 auto 1.875rem auto;
+    border-radius: 1rem;
 }
 
 .video-embed {
@@ -198,7 +198,7 @@ main.portfolio {
     padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
-    border-radius: 16px;
+    border-radius: 1rem;
 }
 
 .video-embed iframe {
@@ -211,12 +211,12 @@ main.portfolio {
 
 main.skillsstrengths {
     flex-direction: column;
-    gap: 60px;
+    gap: 3.75rem;
 }
 
 .skillsstrengths h2 {
-    font-size: 60px;
-    margin-bottom: 30px;
+    font-size: 3.75rem;
+    margin-bottom: 1.875rem;
     text-align: center;
     font-weight: bold;
 }
@@ -224,111 +224,111 @@ main.skillsstrengths {
 .staerken-liste {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 2.5rem;
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 62.5rem;
 }
 
 .staerken-liste .item {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 2.5rem;
 }
 
 .staerken-liste .item img {
-    width: 200px;
+    width: 12.5rem;
     height: auto;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    border-radius: 0.75rem;
+    box-shadow: 0 0.25rem 0.75rem rgba(0,0,0,0.3);
 }
 
 .staerken-liste .item p {
-    font-size: 34px;
+    font-size: 2.125rem;
     line-height: 1.4;
     margin: 0;
 }
 
 .faehigkeiten {
     text-align: center;
-    padding: 40px 0;
+    padding: 2.5rem 0;
 }
 
 .faehigkeiten h2 {
-    font-size: 60px;
-    margin-bottom: 40px;
+    font-size: 3.75rem;
+    margin-bottom: 2.5rem;
     font-weight: bold;
 }
 
 .faehigkeiten ul {
     display: inline-block;
     text-align: left;
-    font-size: 34px;
+    font-size: 2.125rem;
     list-style-type: disc;
-    margin-bottom: 50px;
-    padding-left: 30px;
+    margin-bottom: 3.125rem;
+    padding-left: 1.875rem;
     line-height: 1.6;
 }
 
 .faehigkeiten-icons {
     display: flex;
     justify-content: center;
-    gap: 60px;
+    gap: 3.75rem;
     flex-wrap: wrap;
 }
 
 .faehigkeiten-icons img {
-    width: 200px;
+    width: 12.5rem;
     height: auto;
-    border-radius: 16px;
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+    border-radius: 1rem;
+    box-shadow: 0 0.375rem 1rem rgba(0, 0, 0, 0.4);
 }
 
 main.kontakt {
     flex-direction: column;
-    gap: 40px;
+    gap: 2.5rem;
 }
 
 .kontakt h2 {
-    font-size: 60px;
+    font-size: 3.75rem;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .kontakt form {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    font-size: 28px;
+    gap: 1.25rem;
+    font-size: 1.75rem;
 }
 
 .kontakt input,
 .kontakt textarea {
-    padding: 12px;
-    font-size: 24px;
+    padding: 0.75rem;
+    font-size: 1.5rem;
     background-color: #444;
     color: white;
     border: none;
-    border-radius: 6px;
+    border-radius: 0.375rem;
     outline: none;
     font-family: inherit;
 }
 
 .kontakt-info {
-    font-size: 22px;
-    margin-top: 30px;
+    font-size: 1.375rem;
+    margin-top: 1.875rem;
 }
 
 .kontakt-info ul {
-    padding-left: 20px;
+    padding-left: 1.25rem;
 }
 
 button {
-    padding: 14px 28px;
-    font-size: 24px;
+    padding: 0.875rem 1.75rem;
+    font-size: 1.5rem;
     background-color: #8888ff75;
     color: white;
     border: none;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     cursor: pointer;
     align-self: flex-start;
 }
@@ -337,28 +337,27 @@ button:hover {
     background-color: #8888ffaa;
 }
 
-
 @media (max-width: 768px) {
     nav {
         flex-wrap: wrap;
         justify-content: center;
-        padding: 10px;
+        padding: 0.625rem;
     }
 
     nav a {
-        margin: 6px;
-        font-size: 14px;
-        padding: 10px 16px;
+        margin: 0.375rem;
+        font-size: 0.875rem;
+        padding: 0.625rem 1rem;
     }
 
     main {
-        padding: 30px;
+        padding: 1.875rem;
         flex-direction: column;
     }
 
     main.home {
-        font-size: 48px;
-        padding: 30px;
+        font-size: 3rem;
+        padding: 1.875rem;
     }
 
     main.aboutMe p,
@@ -367,15 +366,14 @@ button:hover {
     main.skillsstrengths .staerken-liste .item p,
     main.skillsstrengths .faehigkeiten ul,
     main.kontakt form {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
-
 
     .aboutMe section h2,
     .portfolio h2,
     .skillsstrengths h2,
     .kontakt h2 {
-        font-size: 36px;
+        font-size: 2.25rem;
     }
 
     .lebenslauf-content {
@@ -395,7 +393,7 @@ button:hover {
 
     .video,
     .video-embed iframe {
-    height: 240px;
+        height: 15rem;
     }
 
     .staerken-liste .item {
@@ -405,7 +403,7 @@ button:hover {
 
     .staerken-liste .item img,
     .faehigkeiten-icons img {
-        width: 140px;
+        width: 8.75rem;
     }
 
     .faehigkeiten-content {
@@ -414,16 +412,16 @@ button:hover {
     }
 
     .faehigkeiten-icons {
-        gap: 30px;
+        gap: 1.875rem;
     }
 
     .kontakt form input,
     .kontakt form textarea {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 
     button {
-        font-size: 18px;
-        padding: 12px 20px;
+        font-size: 1.125rem;
+        padding: 0.75rem 1.25rem;
     }
 }
