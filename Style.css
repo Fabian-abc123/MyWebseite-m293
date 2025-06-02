@@ -1,12 +1,11 @@
 html, body {
     height: 100%;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif, system-ui;
     background-color: #171717;
     color: white;
     display: flex;
     flex-direction: column;
-    font-family: Arial, sans-serif, system-ui;
 }
 
 html {
@@ -336,4 +335,95 @@ button {
 
 button:hover {
     background-color: #8888ffaa;
+}
+
+
+@media (max-width: 768px) {
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    nav a {
+        margin: 6px;
+        font-size: 14px;
+        padding: 10px 16px;
+    }
+
+    main {
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    main.home {
+        font-size: 48px;
+        padding: 30px;
+    }
+
+    main.aboutMe p,
+    main.aboutMe li,
+    main.portfolio p,
+    main.skillsstrengths .staerken-liste .item p,
+    main.skillsstrengths .faehigkeiten ul,
+    main.kontakt form {
+        font-size: 20px;
+    }
+
+
+    .aboutMe section h2,
+    .portfolio h2,
+    .skillsstrengths h2,
+    .kontakt h2 {
+        font-size: 36px;
+    }
+
+    .lebenslauf-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .lebenslauf-content img {
+        padding-right: 0;
+        max-width: 100%;
+    }
+
+    .hobby {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .video,
+    .video-embed iframe {
+    height: 240px;
+    }
+
+    .staerken-liste .item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .staerken-liste .item img,
+    .faehigkeiten-icons img {
+        width: 140px;
+    }
+
+    .faehigkeiten-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .faehigkeiten-icons {
+        gap: 30px;
+    }
+
+    .kontakt form input,
+    .kontakt form textarea {
+        font-size: 18px;
+    }
+
+    button {
+        font-size: 18px;
+        padding: 12px 20px;
+    }
 }
